@@ -1,19 +1,28 @@
 body
 {
-background: beige;
+
 }
 p 
 {
     margin: 20px 7px;
+    word-break: break-word;
+}
+.entry-content
+{
+	width: 95%;
+	margin:auto;
 }
 .entry-content > p:nth-child(1)
 {
 	font-size: 21px;
-    color: orange;
+    color: #04f500;
+    text-decoration: underline;
+    margin-top: 50px;
 } 
 div:nth-child(3) > p:nth-child(25),
 div > p:nth-child(26),
-div > p:nth-child(27)
+div > p:nth-child(27),
+span
 {
 display:none;
 }
@@ -31,4 +40,12 @@ a,
 u
 {
     display: none;
+}
+
+@media  (min-width: 575.98px) 
+{
+p
+{
+		line-height: 50px;
+}
 }
