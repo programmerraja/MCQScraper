@@ -74,6 +74,8 @@ pip3 install request
 
 <p> Add the link that you want to convert in to html file in the list</p>
 
+MCQScraper.py file
+
 ```py
 links=[link,....]
 ```
