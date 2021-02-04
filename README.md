@@ -29,10 +29,17 @@ Scrap questions from sanfoundry website
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p>I created the project for my online exam preparation.i used to study from the sanfoundry website for my exam.</p>
-<p>The thing I hate from the website is I need to navigate lot to study so I get frusted</p>
-<p>So I plan to write web scrapper using python that scrap all the questions from the website and put it on a single html file </p>
 
+<p>Hai guy🤗 I created the project for my online exam preparation.</p>
+<p>I used to study📑 from the sanfoundry website for my exam.</p>
+
+<p>The thing I hate🤧  from the website is I need to navigate lot to study so I get frustrated and easily distracted </p>
+
+<p>So I plan to write web scrapper🤖  using python 🐍 that scrap all the questions from the website and put it on a single html file.</p>
+<p>It help me to learn quickly without distraction😉</p>
+<p>I also deployed it on netlify check that here 👇
+https://MCQScraper.netlify.com
+</p>
 ### Built With
 
 <ol>
