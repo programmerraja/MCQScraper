@@ -36,15 +36,18 @@ def MCQScraper(link):
 
 
 # Add the link it generate the html file 
-links=["https://www.sanfoundry.com/1000-basic-electrical-engineering-questions-answers/",
-       "https://www.sanfoundry.com/computer-network-questions-answers/",
-       "https://www.sanfoundry.com/microprocessors-questions-answers/",
-       "https://www.sanfoundry.com/1000-data-structure-questions-answers/",
-       "https://www.sanfoundry.com/1000-microcontroller-questions-answers/",
-       "https://www.sanfoundry.com/1000-discrete-mathematics-questions-answers/",
-       "https://www.sanfoundry.com/1000-object-oriented-programming-oops-questions-answers/",
-      ]    
-
+#  "https://www.sanfoundry.com/1000-basic-electrical-engineering-questions-answers/",
+#  "https://www.sanfoundry.com/computer-network-questions-answers/",
+#  "https://www.sanfoundry.com/microprocessors-questions-answers/",
+#  "https://www.sanfoundry.com/1000-data-structure-questions-answers/",
+#  "https://www.sanfoundry.com/1000-microcontroller-questions-answers/",
+#  "https://www.sanfoundry.com/1000-discrete-mathematics-questions-answers/",
+#  "https://www.sanfoundry.com/1000-object-oriented-programming-oops-questions-answers/",
+links=[
+       "https://www.sanfoundry.com/software-engineering-questions-answers/",
+       "https://www.sanfoundry.com/artificial-intelligence-questions-answers/",
+       "https://www.sanfoundry.com/1000-database-management-system-questions-answers/"
+      ]
 index_file=open("../index.html","a")
 
 for link in links:
