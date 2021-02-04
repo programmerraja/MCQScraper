@@ -15,7 +15,7 @@ p
 .entry-content > p:nth-child(1)
 {
 	font-size: 21px;
-    color: #04f500;
+    font-weight: bold;
     text-decoration: underline;
     margin-top: 50px;
 } 
@@ -36,16 +36,16 @@ display:none;
 .desktop-content,
 .sf-nav-bottom,
 strong,
-a,
+
 u
 {
     display: none;
 }
 
-@media  (min-width: 575.98px) 
+/*@media  (min-width: 575.98px) 
 {
 p
 {
 		line-height: 50px;
-}
+}*/
 }
